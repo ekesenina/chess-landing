@@ -1,0 +1,91 @@
+@import 'variables'
+
+.app
+    &__section
+        &__members
+            @include SubSection
+            margin-bottom: 95px
+            width: calc(100vw - 203px)
+            &__header
+                display: flex
+                align-items: center
+                justify-content: space-between
+                .pagination
+                    margin-right: 35px
+                    height: fit-content
+                    display: flex
+                    align-items: center
+                    margin-bottom: 50px
+                    &__info
+                        font-family: 'main'
+                        font-size: 16px
+                        font-weight: 400
+                        color: #31313198
+                        margin: 0px 15px
+                        &__active
+                            color: #313131
+                            opacity: 1
+                    &__button
+                        border: none
+                        width: fit-content
+                        height: fit-content
+                        padding: 10px 15px
+                        border-radius: 50%
+                        background-color: #313131
+                        &__prev
+                        &__next
+                            transform: rotate(180deg)
+            .slider
+                align-self: center
+                width: 100%
+                padding-top: 10px
+                &__content
+                    display: flex
+                    justify-content: space-around
+                    &__slide
+                        display: flex
+                        flex-direction: column
+                        justify-content: center
+                        align-items: center
+                        margin-bottom: 40px
+                        transition: all 0.3s ease
+                        &__img
+                            margin-bottom: 28px
+                        &__name
+                            font-family: 'main'
+                            font-size: 24px
+                            font-weight: 600
+                            color: #313131
+                            margin-bottom: 6px
+                        &__position
+                            font-family: 'main'
+                            font-size: 20px
+                            font-weight: 400
+                            color: #31313198
+                            opacity: 0.6
+                            margin-bottom: 15px
+                        &__btn
+                            font-family: 'main'
+                            font-size: 16px
+                            font-weight: 500
+                            text-decoration: none
+                            color: #3057A2
+                            padding: 8px 12px
+                            border: solid 1px #3057A2
+                            border-radius: 30px
+        &__footer
+            background-color: #E9DED4
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100%
+            position: relative
+            padding: 40px 0px 70px
+            &__text
+                font-family: 'main'
+                font-size: 16px
+                font-weight: 400
+                text-decoration: none
+                color: #313131
+                opacity: 0.6
+                width: 90%

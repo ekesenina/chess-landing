@@ -1,0 +1,67 @@
+@import 'variables'
+
+.app
+    &__section
+        &__invitation
+            @include SubSection
+            align-items: center
+            margin-bottom: 160px
+            padding-top: 0px
+            &__item
+                display: flex
+                align-items: center
+                justify-content: center
+                &:nth-child(1)
+                    margin-bottom: 30px
+                &__text
+                    width: 65%
+                    // &:nth-child(1)
+                    //     margin-right: 65px
+                    &:nth-child(2)
+                        margin-left: 20px
+                    &__title
+                        text-transform: uppercase
+                        font-family: 'display'
+                        font-size: 36px
+                        color: #313131
+                        line-height: 48.6px
+                        font-weight: 400
+                        width: 90%
+                        .red
+                            color: #F54932
+                            font-weight: 700
+                            letter-spacing: 0.5px
+                    .second
+                        margin-top: 20px
+                    .info
+                        width: 95%
+                        border-collapse: collapse
+                        margin: 45px 0px 35px
+                        display: block
+                        &__line
+                            border-bottom: 2px solid #D0D0D0
+                            &:last-child
+                                border-bottom: none
+                            &__name, &__value
+                                font-family: 'main'
+                                font-size: 20px
+                                color: #313131
+                                padding: 15px 0px
+                                border-bottom: none
+                            &__name
+                                opacity: 0.7
+                                font-weight: 400
+                                border-right: 2px solid #D0D0D0
+                                padding-right: 18px
+                            &__value
+                                font-weight: 600
+                                padding-left: 7px
+                                border-left: 2px solid #D0D0D0
+                                &__old
+                                    text-decoration: line-through #F54932
+                                    margin-right: 12px
+                    &__note
+                        font-family: 'main'
+                        font-size: 20px
+                        font-weight: 400
+                        color: #3057A2
