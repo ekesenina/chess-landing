@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/chess-landing/static/css/main.43c42443.css",
+    "main.js": "/chess-landing/static/js/main.a6a46aa4.js",
+    "static/js/453.89a0427d.chunk.js": "/chess-landing/static/js/453.89a0427d.chunk.js",
+    "static/media/backgroundHome.png": "/chess-landing/static/media/backgroundHome.997d54899d73fb6592a1.png",
+    "static/media/homeImg.png": "/chess-landing/static/media/homeImg.13e6a60099b724ba838d.png",
+    "static/media/invitation2.png": "/chess-landing/static/media/invitation2.61237d10a6f53c2134c8.png",
+    "static/media/invitation1.png": "/chess-landing/static/media/invitation1.5f9b721dc83496f7148b.png",
+    "static/media/GolosText-VariableFont_wght.ttf": "/chess-landing/static/media/GolosText-VariableFont_wght.cddbe8e99d0cef3d85fb.ttf",
+    "static/media/Merriweather-Regular.ttf": "/chess-landing/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/person.png": "/chess-landing/static/media/person.9aa532cfb8da1ab5bd02.png",
+    "static/media/plane.png": "/chess-landing/static/media/plane.2947171ed273161bc7da.png",
+    "static/media/stepbg.png": "/chess-landing/static/media/stepbg.af2938e6445f12df714e.png",
+    "static/media/logo.svg": "/chess-landing/static/media/logo.a6d70b6483d996fea88fa871e4f25256.svg",
+    "index.html": "/chess-landing/index.html",
+    "static/media/arrow.svg": "/chess-landing/static/media/arrow.9adb1b20f6c7f26f4a96edd125bd0e8d.svg",
+    "main.43c42443.css.map": "/chess-landing/static/css/main.43c42443.css.map",
+    "main.a6a46aa4.js.map": "/chess-landing/static/js/main.a6a46aa4.js.map",
+    "453.89a0427d.chunk.js.map": "/chess-landing/static/js/453.89a0427d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43c42443.css",
+    "static/js/main.a6a46aa4.js"
+  ]
+}
